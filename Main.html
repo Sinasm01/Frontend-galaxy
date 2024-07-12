@@ -1,0 +1,221 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Css/Css 4.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="JS/JQuery.js"></script>
+        <script>
+         
+        const btn = document.querySelector('Button')
+        btn.addEventListener('mouseover' , (e) =>{
+            const x = e.pageX - btn.offsetLeft
+            const y = e.pageY - btn.offsetTop
+            btn.style.setProperty('--x', x + 'px')
+            btn.style.setProperty('--y', y + 'px')
+
+        })
+    </script>
+    </head>
+    
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="Profile.html">Profile</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Version : 9.5</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">About</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="Theory.html">Theory</a></li>
+                <li><a class="dropdown-item" href="About.html"> Creater of the page</a></li>
+                
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <body style="background-color: rgb(34, 34, 34);">
+      
+
+      <section id="A1">
+        <div class="A1-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-6 text-center">
+                <h1  class="mt-5 pt-5 " style="font-size: 300%;">Black holes</h1>
+                <p  class="h1 " style="color: #fff ; font-size: 200%;">The most dangerous place in the universe</p>
+              </div>
+              <div class="col-lg-6"></div>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+      <section  class="bg-dark pt-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4 ">
+          <div class="col">
+            <div class="card h-100 " id="ss">
+              <img id="mm" src="jpg/3.jpg" class="card-img-top" alt="..." >
+              <div class="card-body">
+                <h2 class="card-title text-center">Title 1</h2>
+                <p id="A2" class="card-text "><b>Objects whose gravitational fields are too strong for light to escape were first considered in the 18th century by John Michell and Pierre-Simon Laplace. In 1916, Karl Schwarzschild found the first modern solution of general relativity that would characterize a black hole. David Finkelstein, in 1958, first published the interpretation of "black hole" as a region of space from which nothing can escape. Black holes were long considered a mathematical curiosity; it was not until the 1960s that theoretical work showed they were a generic prediction of general relativity. The discovery of neutron stars by Jocelyn Bell Burnell in 1967 sparked interest in gravitationally collapsed compact objects as a possible astrophysical reality. The first black hole known was Cygnus X-1, identified by several researchers independently in 1971.</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" id="ss">
+              <img src="jpg/5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title  text-center">Title 2</h2>
+                <p class="card-text"><b>On 11 February 2016, the LIGO Scientific Collaboration and the Virgo collaboration announced the first direct detection of gravitational waves, representing the first observation of a black hole merger. On 10 April 2019, the first direct image of a black hole and its vicinity was published, following observations made by the Event Horizon Telescope (EHT) in 2017 of the supermassive black hole in Messier 87's galactic centre. As of 2021, the nearest known body thought to be a black hole is around 1,500 light-years (460 parsecs) away (see list of nearest black holes). Though only a couple dozen black holes have been found so far in the Milky Way, there are thought to be hundreds of millions, most of which are solitary and do not cause emission of radiation. Therefore, they would only be detectable by gravitational lensing.</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100" id="ss">
+              <img src="jpg/6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h2 class="card-title  text-center">Title 3</h2>
+                <p class="card-text"><b>The presence of a black hole can be inferred through its interaction with other matter and with electromagnetic radiation such as visible light. Any matter that falls onto a black hole can form an external accretion disk heated by friction, forming quasars, some of the brightest objects in the universe. Stars passing too close to a supermassive black hole can be shredded into streamers that shine very brightly before being "swallowed." If other stars are orbiting a black hole, their orbits can determine the black hole's mass and location. Such observations can be used to exclude possible alternatives such as neutron stars. In this way, astronomers have identified numerous stellar black hole candidates in binary systems and established that the radio source known as Sagittarius A*, at the core of the Milky Way galaxy, contains a supermassive black hole of about 4.3 million solar masses.</b></p>
+              </div>
+            </div>
+          </div>
+          
+      </section>
+      <section class="bg-dark pt-5">
+        <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="jpg/8.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="jpg/10.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="jpg/11.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="jpg/8.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="jpg/9.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="pt-5 bg-dark">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="jpg/12.jpg" class="card-img-top shadow" alt="...">
+              <div class="card-body">
+                <h2 class="card-title text-center"> Speech 1</h2>
+                <p id="A2" class="card-text"><b>Q: How did you become interested in the stars and planets?<br><br>
+
+                  A: When I was five years old, my parents gave me a little telescope. When I was 15, my father and I got up in the middle of the night to observe a meteor shower. I asked him to take notes so I’d have statistics about what we saw. At one point there were so many shooting stars – 15 or 20 per second for about 10 minutes – that we were just staring at the sky without taking notes. That’s one of the best memories I have of my childhood, being with my father and watching this amazing show at night. 
+                  <br><br>
+                 Q: How do you describe black holes to a nonscientist?
+                  <br><br>
+                  A: They are extremely massive objects with gravitational fields so intense that a ray of light can’t escape. They are like a cosmic vacuum cleaner that swallows everything around it and lets nothing out.</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="jpg/13.jpg" class="card-img-top shadow" alt="...">
+              <div class="card-body">
+                <h2 class="card-title  text-center"> Speech 2</h2>
+                <p class="card-text"><b>In his book The Grand Design, Stephen Hawking stated that “philosophy is dead” because it “has not kept up with modern developments in science.” This is ironic because Hawking spent a great deal of the book philosophizing and, unfortunately, doing it quite poorly. Furthermore, some of this poor philosophy was directed against the existence of God.
+                  <br><br>
+
+                  Although Stephen Hawking was a brilliant scientist, he was deeply ignorant of the current state of philosophy. The truth is that philosophers of science are very well informed of advancements in science. Some philosophers, such as David Albert, even have a doctorate in physics. Tim Maudlin, a philosopher of physics, points out just how wrong Hawking was. <br><br>
+                  Hawking is a brilliant man, but he's not an expert in what's going on in philosophy, evidently. Over the past thirty years the philosophy of physics has  become seamlessly integrated with the foundations of physics work done by actual physicists, so the situation is actually the exact opposite of what he describes. I think he just doesn't know what he's talking about. I mean there's no reason why he should. Why should he spend a lot of time reading the philosophy of physics? I'm sure it's very difficult for him to do. But I think he's just . . . uninformed. 
+                  <br><br>
+                  Given how Hawking failed to understand the true state of philosophy, his arguments against the existence of God should be taken with a grain of salt. Arguments for and against the existence of God are, after all, primarily philosophical issues and not scientific ones. </b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="jpg/14.jpg" class="card-img-top shadow" alt="...">
+              <div class="card-body">
+                <h2 class="card-title  text-center">Speech 3</h2>
+                <p class="card-text"><b>Black holes are points in space with so much gravitational pull that not even light can escape from them. The "point of no going back" around a black hole is referred to as its event horizon. Black holes are formed either when a star greater than 20 solar masses collapses, or when the entire core of a galaxy collapses. Galaxy-collapse black holes release tremendous amounts of energy which can be observed from billions of light years away. This energy comes from the friction of infalling matter against itself — no radiation can emanate from the black hole itself.
+
+                </b></p>
+              </div>
+            </div>
+          </div>
+        
+      </section>
+      <h3> </h3>
+      </section>
+      
+
+      
+
+
+
+      <section class="bg-dark">
+      <h3 class="text-center mt-3 " style="color: #fff;">Suggestions and Problems</h3>
+      <h4 class="text-center " style="color: #fff;">I will so happy if you send me my website Problems and give me Suggestions to improve my site .</h3>
+
+<div class="container bg-dark">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Iran</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="usa">Europ</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Suggestions and Problems..." style="height:200px;"></textarea>
+
+    <button type="submit" class="btn btn-primary mt-3  disabled" >Send</button>
+  </form>
+</div>
+</section>
+
+  
+
+       
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+           
+      </body>
+
+</html>
